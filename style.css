@@ -1,0 +1,124 @@
+body{
+    background-color:rgba(141, 232, 255, 0.904);
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    
+}
+input{
+    display: block;
+    width: 400px;
+    height: 20px;
+    padding: 7px;
+    margin: 5px;
+    border-radius :10px;
+}
+input:focus{
+    background-color: rgb(186, 236, 175);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+}
+.left input[type="button"]
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size:20px ;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: rgb(215, 197, 174);
+    border-radius :15px;
+}
+.left input[type="button" ]:hover{
+    background-color: rgb(122, 224, 124);
+}
+.left input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.left h1{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+.right{
+    background-color:rgb(255, 224, 194);
+    width:38%;
+    padding-top: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0;
+}
+.right>h1{
+    margin-bottom: 10px;
+    font-size: 2em;
+    margin-top: 0.1px;
+}
+.right>p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(226, 157, 157);
+    width:62%;
+    gap:5px;
+}
+.right>input{
+    background-color: rgb(240, 240, 230);
+    width:230px;
+    height: 40px;
+    padding-right: 10px;
+}
+.left, .right{
+    border-radius: 10px;
+}
+.login{
+    display: flex;
+    gap: 0;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 90%;
+    height: 400px;
+    padding-top: 0;
+    background-color:rgb(231, 185, 125);
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.signin{
+    background-color:transparent !important;
+    border: none;
+    font-size: 20px;
+}
+.icon{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
+.icon img:hover{
+    width: 50px;
+    height: 50px;
+}
