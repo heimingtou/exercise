@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+    background-color: rgb(250, 247, 244);
+    width:25rem;
+    height:13rem;
+    padding :0;
+}
+.button{
+    position:absolute;
+    bottom: 3px;
+    right:5px;
+    background-color: rgb(211, 215, 193);
+    color:black;
+    width:8rem;
+    height:2.5rem;
+}
+.containerTitle{
+    position: absolute;
+    top:0;
+    left: 0;
+    color:black;
+}
+.title, .subtitle {
+  margin-left: 0;
+  padding-left: 0;
+}
+.title{
+    padding-left: 5px;
+    font-size:2rem;
+    font-weight: bold;
+    margin-bottom: 1px ;
+}
+.subtitle{
+    text-align: left;
+    padding-left:5px;
+    margin-top: 0;
+    font-size:1.5rem;
+    color: gray;
+}

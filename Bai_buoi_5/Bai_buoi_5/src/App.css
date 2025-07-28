@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.title {
+  font-size: 2em;
+  line-height: 1.1;
+  display: flex ;
+  align-items: flex-start;
+  margin-bottom: 2px;
+}
+.subtitle {
+  font-size: 1em;
+  color: #888;
+   display: flex ;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom:3px;
+}
+.card {
+  padding: 2em;
+}
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 50em;
+  height:20em;
+
+}
+.read-the-docs {
+  color: #888;
+}
+.input-container {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5px;
+  background-color: #f8f8f4;
+  width:40em;
+  height: 3em;
+}
+.frame-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  width:80rem;
+  height: 50rem;
+}
